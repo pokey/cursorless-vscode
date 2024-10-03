@@ -4,7 +4,7 @@ import "./shiki.css";
 import "./styles.css";
 import type { TestCaseFixture } from "@cursorless/common";
 
-export const TestCaseComponentPage: React.FC<{ data: TestCaseFixture[];}> = ({
+export const TestCaseComponentPage: React.FC<{ data: TestCaseFixture[] }> = ({
   data,
 }) => {
   return (

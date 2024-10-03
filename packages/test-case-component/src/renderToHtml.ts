@@ -1,5 +1,5 @@
 // forked from https://github.com/SimeonC/shiki/blob/main/packages/shiki/src/renderer.ts
-import { htmlEscape } from 'escape-goat';
+import { htmlEscape } from "escape-goat";
 import type { ThemedToken } from "shiki";
 
 // MIT License

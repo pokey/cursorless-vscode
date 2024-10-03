@@ -12,7 +12,7 @@ export const ShikiComponent: React.FC<{ data: any }> = ({ data }) => {
               dangerouslySetInnerHTML={{ __html: data.before }}
             />
           )}
-          {(data.during) && (
+          {data.during && (
             <>
               <div
                 className="p-4"

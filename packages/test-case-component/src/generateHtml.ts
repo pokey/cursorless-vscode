@@ -1,7 +1,4 @@
-import {
-  getHighlighter,
-  createCssVariablesTheme,
-} from "shiki";
+import { getHighlighter, createCssVariablesTheme } from "shiki";
 import type { BundledLanguage } from "shiki";
 
 import { renderToHtml } from "./renderToHtml";
@@ -18,10 +15,7 @@ interface CursorlessFixtureSelection {
 }
 interface CursorlessFixtureState {
   documentContents: any;
-  marks?: Record<
-    `${HatType}.${string}`,
-    { start: PositionPlainObject }
-  >;
+  marks?: Record<`${HatType}.${string}`, { start: PositionPlainObject }>;
   flashes?: CursorlessFixtureSelection[];
   selections?: CursorlessFixtureSelection[];
   thatMark?: [CursorlessFixtureSelection];

@@ -9,7 +9,6 @@ import {
 } from "@cursorless/test-case-component";
 // import { upgrade } from "@cursorless/cursorless-engine"
 
-
 import { cheatsheetBodyClasses } from "@cursorless/cheatsheet";
 
 const fixturesDir = path.join("../", "../", "data", "fixtures", "recorded");
