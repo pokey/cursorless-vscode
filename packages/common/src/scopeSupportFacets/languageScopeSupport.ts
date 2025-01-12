@@ -17,6 +17,7 @@ import { luaScopeSupport } from "./lua";
 import { markdownScopeSupport } from "./markdown";
 import { phpScopeSupport } from "./php";
 import { pythonScopeSupport } from "./python";
+import { rScopeSupport } from "./r";
 import { rubyScopeSupport } from "./ruby";
 import { rustScopeSupport } from "./rust";
 import { scalaScopeSupport } from "./scala";
@@ -50,6 +51,7 @@ export const languageScopeSupport: StringRecord<LanguageScopeSupportFacetMap> =
     markdown: markdownScopeSupport,
     php: phpScopeSupport,
     python: pythonScopeSupport,
+    r: rScopeSupport,
     ruby: rubyScopeSupport,
     rust: rustScopeSupport,
     scala: scalaScopeSupport,
