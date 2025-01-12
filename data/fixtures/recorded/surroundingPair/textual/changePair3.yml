@@ -1,4 +1,4 @@
-languageId: python
+languageId: typescript
 command:
   version: 7
   spokenForm: change pair
@@ -11,13 +11,13 @@ command:
           scopeType: {type: surroundingPair, delimiter: any}
   usePrePhraseSnapshot: true
 initialState:
-  documentContents: "' r'"
+  documentContents: "`[1, ${']'}, 3]`"
   selections:
-    - anchor: {line: 0, character: 0}
-      active: {line: 0, character: 0}
+    - anchor: {line: 0, character: 1}
+      active: {line: 0, character: 1}
   marks: {}
 finalState:
-  documentContents: ""
+  documentContents: "``"
   selections:
-    - anchor: {line: 0, character: 0}
-      active: {line: 0, character: 0}
+    - anchor: {line: 0, character: 1}
+      active: {line: 0, character: 1}
